@@ -1,0 +1,13 @@
+name: chem1310-jupyter-env
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - scipy
+  - pip
+  - pip:
+    - pandas
+    - matplotlib
+    - ipysheet
+    - bqplot
